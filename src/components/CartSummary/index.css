@@ -1,0 +1,55 @@
+/* Write your CSS here */
+
+.checkout-button {
+  background-color: #0b69ff;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+}
+
+.cart-summary-container {
+  font-family: roboto;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-summary-details {
+  align-self: flex-end;
+}
+
+.order-total-heading {
+  font-size: 16px;
+  color: #616e7c;
+}
+
+.order-total-price {
+  color: #171f46;
+}
+
+.item-in-cart-count {
+  color: #616e7c;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .cart-summary-container {
+    align-self: flex-end;
+    min-width: 250px;
+  }
+
+  .cart-summary-details {
+    align-self: stretch;
+  }
+
+  .order-total-heading {
+    font-size: 22px;
+  }
+  .order-total-price {
+    font-size: 28px;
+    font-weight: bolder;
+  }
+}
